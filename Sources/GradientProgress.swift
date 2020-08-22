@@ -85,8 +85,8 @@ public class GradientProgressBar : UIProgressView {
     private func initGradientLayer() -> CAGradientLayer {
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = sizeByPercentage(originalRect: bounds, width: CGFloat(progress))
-        gradientLayer.anchorPoint = CGPoint(x: 0, y: 0)
-        gradientLayer.position = CGPoint(x: 0, y: 0)
+        gradientLayer.anchorPoint = CGPoint(x: 1, y: 1)
+        gradientLayer.position = CGPoint(x: 1, y: 1)
         gradientLayer.startPoint = CGPoint(x: 0, y: 0.5)
         gradientLayer.endPoint = CGPoint(x: 1, y: 0.5)
         gradientLayer.cornerRadius = cornerRadius
