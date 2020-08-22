@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 public class GradientProgressBar : UIProgressView {
     
     // MARK: - Properties
