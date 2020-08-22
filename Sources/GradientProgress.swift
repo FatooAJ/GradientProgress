@@ -101,6 +101,6 @@ public class GradientProgressBar : UIProgressView {
     
     private func sizeByPercentage(originalRect: CGRect, width: CGFloat) -> CGRect {
         let newSize = CGSize(width: originalRect.width * width, height: originalRect.height)
-        return CGRect(origin: CGPoint(x: originalRect.width, y: originalRect.height), size: newSize)
+        return CGRect(origin: CGPoint(x: 10, y: 20), size: newSize)
     }
 }
